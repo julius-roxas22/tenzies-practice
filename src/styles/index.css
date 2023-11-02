@@ -1,0 +1,102 @@
+body {
+    font-family: 'Quicksand';
+    padding: 30px;
+    background-color: rgb(8, 23, 51);
+}
+
+.main {
+    background-color: rgba(0, 0, 0, 0.192);
+    max-width: 800px;
+    margin: auto;
+    border-radius: 8px;
+    padding: 0px 10px 10px 10px;
+}
+
+.main--container {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-title,
+.text-instruction {
+    margin: 0;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+.text-title {
+    margin-top: 55px;
+    margin-bottom: 20px;
+    font-weight: 500px;
+}
+
+.text-instruction {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 14px;
+}
+
+.die-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: rgb(224, 224, 224);
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.die,
+.die--selected {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 6px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.055);
+    cursor: pointer;
+}
+
+.die {
+    background-color: white;
+}
+
+.die--selected {
+    background-color: rgb(0, 88, 0);
+}
+
+.die--value,
+.die--value_selected {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.die--value {
+    color: rgb(8, 23, 51);
+}
+
+.die--value_selected {
+    color: rgb(0, 158, 0);
+}
+
+.btn_roll {
+    width: 90px;
+    align-self: center;
+    padding: 12px;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    border-radius: 4px;
+    background-color: transparent;
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.btn_roll:hover {
+    opacity: 1;
+}
