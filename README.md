@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`![cross](https://github.com/julius-roxas22/tenzies-practice/assets/148351137/097ba7be-1bbe-4642-823a-09b97297e86f)
+### `npm start`
 
 
 Runs the app in the development mode.\
